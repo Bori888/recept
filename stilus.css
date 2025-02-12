@@ -32,3 +32,31 @@ footer{
     text-align: center;
     padding: 3px;
 }
+h3{
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+  
+
+  
+li a {
+    display: block;
+    color: black;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+  
+li a:hover:not(.active) {
+    background-color: #7e5a0c;
+}
